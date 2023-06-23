@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Adventure</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="space game, space, game, fun, kids games, rocket game, moon game">
+  <meta name="description" content="This is a simple game for all the family to learn about space exploration. The game involves flying around space and shooting asteroids.">
+  <meta name="author" content="NIBIN BABU">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/maincss.css">
+</head>
+<body>
+  <h1 id="spacegame">Space Game</h1>
+  <p>Try to avoid the asteroids and save the moon!</p>
+
+  <!-- Image objects for game -->
+  <div class="middlemoon">
+    <img src="images/rocket.png" style="width:300px" alt="image of cartoon rocket">
+  </div>
+
+  <div class="rocket">
+    <img src="images/moon.png" style="width:300px;" alt="cartoon image of the moon">
+  </div>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>Nibin</td>
+      <td>Babu</td>
+      <td>122141</td>
+    </tr>
+    <tr>
+      <td>Angelika</td>
+      <td>Szabo</td>
+      <td>120141</td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    <a href="https://www.google.com.mt" target="_blank">Click here to check out our facebook page</a>
+  </div>
+  <div>
+    <h2>Enter Your Details</h2>
+    <form action="pages/thankyou.html">
+      <label for="fname">Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="fname">Surname:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="fname">Put your comments here!</label><br>
+      <textarea id="notes" name="notes" rows="5" cols="30"></textarea><br>
+      <label for="fname">Country:</label><br>
+      <select id="country" name="country" value="Malta">
+        <option value="Malta">Malta</option>
+        <option value="Gozo">Gozo</option>
+        <option value="Comino">Comino</option>
+        <option value="Filfla">Filfla</option>
+        <option value="General">General's Rock</option>
+      </select><br>
+      <label for="fname">Your favorite color:</label><br>
+      <input type="radio" id="radio" name="favcolor" value="Red">Red<br>
+      <input type="radio" id="radio" name="favcolor" value="Green">Green<br>
+      <input type="radio" id="radio" name="favcolor" value="Blue">Blue<br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+  background-image: url("../images/space.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 80px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#spacegame {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-radius: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  color: white;
+}
+
+table th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ccc;
+  background-color: gray;
+  font-weight: bold;
+}
+
+table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ccc;
+  background-color: rgba(174, 182, 191, 0.8);
+}
+
+.middlemoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.rocket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  transform: translate(-25px, -25px);
+  animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(-25px, -25px);
+  }
+  50% {
+    transform: translate(25px, 25px);
+  }
+  100% {
+    transform: translate(-25px, -25px);
+  }
+}
+
+.footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: yellow;
+}
